@@ -1,0 +1,32 @@
+/* Global styles
+-------------------------*/
+body{
+    
+}
+a {
+    color: #C2948A;
+}
+a:hover {
+    text-decoration: none;
+}
+/* Header and Footer
+------------------------*/
+header,footer {
+    background-color: #28536B;
+    color: #F6F0ED;
+}
+header h1, header h2 {
+    color: #7EA8BE;
+}
+
+/* Work and Experience
+------------------------*/
+.work {
+    background-color: #7EA8BE;
+}
+
+/* Education
+------------------------*/
+.education {
+    background-color: #BBB193;
+}
