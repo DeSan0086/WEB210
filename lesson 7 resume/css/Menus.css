@@ -1,0 +1,49 @@
+nav ul.drop {
+    margin: auto;
+    font-family: 'Gentium Basic';
+    font-size: 1.1em;
+    width: 100%;
+    text-align: center;
+    font-variant: small-caps;
+}
+ul.drop a {
+    text-decoration: none;
+    color: white   
+}
+ul.drop, ul.drop li{
+    list-style: none;
+    color: white;
+}
+ul.drop li {
+    float: left;   
+    padding: 5px; 
+    line-height: 1.3em;
+    background-color: #28536B;
+    width: 18%;
+    border: 1px solid #F6F0ED;
+}
+ul.drop ul {
+    /* display: none; */ 
+    top: 2em;
+    position: absolute;
+    margin-left: -9999999999px;
+}
+ul.drop li li {
+    width: 95%;
+}
+ul.drop li:hover{
+    position: relative;
+    background-color: #C2948A;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+ul.drop li:hover > ul{
+    margin: -2px -1px 0 -45px;
+}
+ul.drop ul ul :hover {
+    top: 0;
+    width: 100%;
+    background-color: #C2948A;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+}
