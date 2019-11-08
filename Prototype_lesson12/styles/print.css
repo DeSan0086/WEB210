@@ -1,0 +1,30 @@
+@media print {
+    nav, footer, img {
+        display: none;
+    }
+    body {
+        font: 12pt Georgia, Garamond;
+        line-height: 1.3;
+    }
+    header h1 {
+        font-size: 25pt;
+        font-family: Georgia, "Times New Roman", serif;
+        text-transform: uppercase;
+        text-align: center;
+        color: black;
+        box-shadow: none;
+    }
+    section h1 {
+        color: black;
+    }
+    section {
+        font-size: 12pt;
+        text-align: left;
+        color: black;
+      
+    }
+    header {
+        margin-top: 40px;
+    }
+
+}   
